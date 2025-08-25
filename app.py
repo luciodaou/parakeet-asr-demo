@@ -228,8 +228,8 @@ def transcribe_audio(audio_path, show_progress=True):
                             elapsed = time.time() - start_time
                             if elapsed >= estimated_total_time:
                                 break
-                            progress = min(elapsed / estimated_total_time, 0.95)  # Max at 95% until completion
-                            progress_bar.progress(progress)
+                            # progress = min(elapsed / estimated_total_time, 0.95)  # Max at 95% until completion
+                            # progress_bar.progress(progress)
                             time.sleep(estimated_total_time / 100)
                     
                     # Start progress update in separate thread
