@@ -23,7 +23,8 @@ wget>=3.2
 hydra-core>=1.1.0
 sacrebleu>=2.0.0
 datasets>=2.18.0
-editdistance==0.8.1
+rapidfuzz>=3.13.0
 ipython>=8.0.0
 pydub>=0.25.1
+
 ffmpeg-python>=0.2.0
